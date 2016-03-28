@@ -1,0 +1,89 @@
+
+ 
+  
+  
+   /*
+    
+	if (Pin_RX >= 1){		
+			lCount = 0;
+		 	while (Pin_RX) {									  
+                                        lCount++;
+                                        Delay50us();
+                                       }
+			if ((lCount >= 6) && (lCount <=10)){					//0.4msµ?°?????	
+				sRX[0] = 0;
+				sRX[1] = 0;
+				sRX[2] = 0;
+				sRX[3] = 0;
+				sRX[4] = 0;
+				data_right = 1;	
+				//Pin_test = 1;				
+				vRSSI_1 = ReadSingleReg(RSSI);
+  				
+				for (j=0;j<36;j++){
+					lCount = 0;
+					hCount = 0;
+                                        
+				   	while (!Pin_RX) {									  //µ?µ???????
+						lCount++;
+						if (lCount > 20) {
+                                                                  lCount = 100;
+                                                                  break;
+						                  }
+						Delay50us();
+                                                
+					}
+                                        
+					while (Pin_RX) {									  //??µ???????
+						hCount++;
+						if (hCount > 20) {
+                                                                  hCount = 100;
+                                                                  break;
+                                                                  }
+						Delay50us();
+					}
+					allCount = lCount + hCount;
+					if ((allCount >= 4) && (allCount <= 45)){			  //12,28
+						if (lCount > hCount){
+							sRX[j / 8] = sRX[j / 8] | (1 << (j % 8));
+							
+						}else{
+							
+						}
+					} else{
+						data_right = 0;
+						break;
+					      }
+				}
+				//Pin_test = 0;
+				Delay50us();
+				if (data_right == 1){
+					vRSSI_2 = ReadSingleReg(RSSI);
+					k = 0;							
+					for (j=0; j<4; j++){
+						l = sRX[j] & 0x0f;
+						k ^= l; 
+						m = sRX[j] >> 4;
+						k ^= m;				
+					} 
+					if (k == sRX[4]){ LED1_On;
+						          USART_Send_Data(0x00);
+                                                          for (j=0;j<5;j++){
+                                                                            USART_Send_Data(sRX[j]);
+                                                                            }
+                                                                            USART_Send_Data(vRSSI_1);
+                                                                            USART_Send_Data(vRSSI_2);
+					                                    USART_Send_Data(0x00);
+                                                                            LED1_Off;
+                                                                            goToSleep();
+                                                                            
+					                } 
+														 
+				} 			
+			}
+		}
+//////////////////////////// 
+   // LED1_Off;
+   // LED2_Off;
+   // LED3_Off;
+    */

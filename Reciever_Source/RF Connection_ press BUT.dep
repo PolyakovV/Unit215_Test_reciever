@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>3447707553</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\Debug\Obj\main.r43</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\RF1A.r43</file>
+      <file>$PROJ_DIR$\usart.c</file>
+      <file>$PROJ_DIR$\HAL\cc430x613x_PMM.c</file>
+      <file>$PROJ_DIR$\Valik_os.c</file>
+      <file>$PROJ_DIR$\usart.h</file>
+      <file>$PROJ_DIR$\main.c</file>
+      <file>$TOOLKIT_DIR$\inc\cc430x513x.h</file>
+      <file>$PROJ_DIR$\HAL\RF1A.c</file>
+      <file>$PROJ_DIR$\HAL\HAL_FLASH.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ycheck.h</file>
+      <file>$PROJ_DIR$\HAL\RF1A.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\stdio.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\RF_Connection.r43</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ysizet.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\HAL_FLASH.r43</file>
+      <file>$TOOLKIT_DIR$\inc\cc430f5137.h</file>
+      <file>$PROJ_DIR$\..\..\..\Users\Valentine\Desktop\Reciver Texas Instr Datasheet\My_test\usart.h</file>
+      <file>$PROJ_DIR$\Valik_os.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Valik_os.pbi</file>
+      <file>$PROJ_DIR$\HAL\HAL_FLASH.c</file>
+      <file>$PROJ_DIR$\HAL\cc430x613x_PMM.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Valik_os.r43</file>
+      <file>$PROJ_DIR$\Debug\Exe\RF Connection_ press BUT.d43</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\stdlib.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\RF1A.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\RF_Connection.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\in430.h</file>
+      <file>$PROJ_DIR$\Debug\Exe\RF Connection_ press BUT.hex</file>
+      <file>$TOOLKIT_DIR$\inc\cc430x613x.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\HAL_FLASH.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\msp430.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ystdio.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\cc430x613x_PMM.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\yvals.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\string.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\cc430x613x_PMM.r43</file>
+      <file>$TOOLKIT_DIR$\config\lnkCC430F5137.xcl</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$TOOLKIT_DIR$\config\multiplier32_loc2.xcl</file>
+      <file>$PROJ_DIR$\Debug\Obj\usart.r43</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dl430xsfn.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\usart.pbi</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dl430xsfn.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\stdint.h</file>
+      <file>$PROJ_DIR$\RF_Connection.c</file>
+      <file>$PROJ_DIR$\RF_Connection.h</file>
+      <file>$PROJ_DIR$\smartrf_CC430_315MHz.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\RF Connection_ press BUT.pbd</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 25 31</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\usart.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 44</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 46</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 18 8 30 42 6</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 8 30 42 6</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\HAL\cc430x613x_PMM.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 40</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 36</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 18 32 30 42 22</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 32 30 42 22</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Valik_os.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 24</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 20</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 18 8 30 42 12 22 10 49 11 37 1 47 39 23 27 13 15 35 38 26 6 19</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 8 30 42 12 22 10 49 11 37 1 39 23 27 13 15 35 38 26 6 19</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\main.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 0</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 48</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 18 8 30 42 12 22 10 49 11 37 1 47 39 23 27 13 15 35 38 26 6 19</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 8 30 42 12 22 10 49 11 37 1 39 23 27 13 15 35 38 26 6 19</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\HAL\RF1A.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 2</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 28</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 18 12 8 30 42</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 12 8 30 42</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\HAL\HAL_FLASH.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 16</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 33</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 18 34 17 30 42 10 49 11 37 1 47 39 23 27</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 34 17 30 42 10 49 11 37 1 39 23 27</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\RF Connection_ press BUT.d43</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 31</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 41 43 16 2 24 40 0 44 45</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\RF_Connection.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 14</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 29</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 18 8 30 42 12 22 51 52 6</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 8 30 42 12 22 51 52 6</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Obj\RF Connection_ press BUT.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 33 28 20 36 48 46</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs>
+      <file>$PROJ_DIR$\Release\Obj\usart.r43</file>
+      <file>$PROJ_DIR$\usart.c</file>
+      <file>$PROJ_DIR$\HAL\cc430x613x_PMM.c</file>
+      <file>$PROJ_DIR$\usart.h</file>
+      <file>$PROJ_DIR$\main.c</file>
+      <file>$TOOLKIT_DIR$\inc\cc430x513x.h</file>
+      <file>$PROJ_DIR$\HAL\RF1A.c</file>
+      <file>$PROJ_DIR$\HAL\RF1A.h</file>
+      <file>$PROJ_DIR$\HAL\cc430x613x_PMM.h</file>
+      <file>$TOOLKIT_DIR$\inc\in430.h</file>
+      <file>$PROJ_DIR$\Release\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\HAL\RF_config_Olimex\smartrf_CC430F5137_868MHz_38k4Baud.h</file>
+      <file>$PROJ_DIR$\Release\Obj\cc430x613x_PMM.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\RF1A.pbi</file>
+      <file>$TOOLKIT_DIR$\config\lnkCC430F5133.xcl</file>
+      <file>$PROJ_DIR$\Release\Exe\RF Connection_ press BUT.txt</file>
+      <file>$PROJ_DIR$\Release\Obj\RF Connection_ press BUT.pbd</file>
+      <file>$PROJ_DIR$\Release\Obj\RF1A.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\RF_Connection.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\usart.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\main.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\cc430x613x_PMM.r43</file>
+      <file>$PROJ_DIR$\Release\Obj\RF_Connection.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\cc430x613x.h</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$TOOLKIT_DIR$\config\multiplier32_loc2.xcl</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dl430xsfn.r43</file>
+      <file>$PROJ_DIR$\RF_Connection.c</file>
+      <file>$PROJ_DIR$\RF_Connection.h</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 15</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\usart.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 0</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 19</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 5 9 24 3</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 3</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\HAL\cc430x613x_PMM.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 21</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 12</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 23 9 24 8</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 8</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\main.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 20</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 10</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 5 9 24 3 28</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 3 28</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\HAL\RF1A.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 17</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 13</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 7 5 9 24</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 7</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Release\Exe\RF Connection_ press BUT.txt</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 14 25 17 18 21 20 0 26</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Release\Obj\RF Connection_ press BUT.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 13 22 12 10 19</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\RF_Connection.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 18</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 22</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 5 9 24 7 8 28 11</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 7 8 28 11</file>
+        </tool>
+      </inputs>
+    </file>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+
