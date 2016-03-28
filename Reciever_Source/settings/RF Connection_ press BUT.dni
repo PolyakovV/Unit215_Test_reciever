@@ -85,7 +85,7 @@ Symbiont=0
 Exclusions=
 [Breakpoints]
 Bp0=_ "STD_CODE" "{$PROJ_DIR$\..\..\..\Users\Valentine\Desktop}.206.1" 0 0 0 0 "" 0 ""
-Bp1=_ "STD_CODE" "{C:\GitHub\TesterU212}.260.5" 0 0 0 0 "" 0 ""
+Bp1=_ "STD_CODE" "{$PROJ_DIR$\..\..\TesterU212}.260.5" 0 0 0 0 "" 0 ""
 Bp2=_ "STD_CODE" "{$PROJ_DIR$\..\..\..\Users\Valentine\Desktop}.260.5" 0 0 0 0 "" 0 ""
 Bp3=_ "STD_CODE" "{$PROJ_DIR$\main.c}.898.3" 0 0 0 0 "" 0 ""
 Count=4
